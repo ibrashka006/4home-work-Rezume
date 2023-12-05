@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    height: 100vh;
+}
+body{
+    background-image: url(https://celes.club/uploads/posts/2022-05/1653448984_3-celes-club-p-raduzhnii-fon-instagram-dlya-avatarki-kras-3.jpg)
+    
+}
+.btns{ 
+    display: flex; 
+    margin-top: 50%;
+    margin-left: 25%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff5252;
+    border: 2px solid #0000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+}
+.btns :hover{
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252 ;
+}
+.btns:active{
+    background-color: #ffff15;
+    box-shadow: none;
+    transform: translateY(5px);
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ff5252;
+    border: 2px solid #0000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+}
+button a{
+    color: #000;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
